@@ -1,0 +1,265 @@
+:root {
+
+--button-color: #404bbf;
+--logo-color: #4d5ae5;
+--main-color: #2e2f42;
+--hero-footer-color:#2e2f42;
+--second-color: #434455;
+--color-cornflower: #e7e9fc;
+--color-cloud: #f4f4fd;
+--color-white: #ffffff;
+--background-color:#ffffff;
+}
+
+body {
+font-family: Roboto, sans-serif ;
+background-color: var(--background-color);
+color: var(--second-color);
+}
+.list {
+list-style: none;
+}
+.link {
+text-decoration: none;
+}
+
+/* Навігація*/
+
+.header-logo {
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--logo-color);
+}
+
+.logo-span {
+font-family: 'Raleway', sans-serif;
+color: var(--main-color);
+}
+
+.page-header {
+color: var(--main-color);
+}
+
+.navigation-item:hover, 
+.navigation-item:focus {
+color: var(--button-color);
+}
+
+.navigation-item {
+font-style: normal;
+text-decoration: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-color);
+}
+.navigation-item:active {
+color: var(--button-color);
+
+}
+
+.contact-item:hover,
+.contact-item:focus {
+color: var(--button-color);
+}
+
+.header-contacts {
+font-style: normal;
+}
+
+.contact-item {
+font-style: normal;
+text-decoration: none;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--second-color);
+}
+.contact-item:active {
+color: var(--button-color);
+}
+
+/* Hero */
+
+.section-hero {
+background: var(--hero-footer-color);
+}
+.hero-title {
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--color-white);
+}
+.hero-btn {
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--color-white);    
+background: var(--logo-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+}
+.hero-btn:active {
+color: #FFFFFF;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+background-color: var(--button-color);
+}
+
+/* Advantages */
+
+.section-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--main-color);
+}
+.title-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--second-color);
+}
+/* What are we doing */
+
+.what-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: var(--hero-footer-color);
+}
+
+/* Team */
+
+.team-section {
+background: var(--color-cloud);
+}
+.our-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: var(--hero-footer-color);
+}
+
+.team-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+background: var(--background-color);
+}
+
+.team-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+background: var(--background-color);
+}
+.team-professions {
+background: var(--background-color);  
+}
+
+/* Footer */
+
+.footer {
+background: var(--hero-footer-color);
+}
+
+.footer-logo {
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+color: var(--logo-color);
+}
+.span-logo {
+color: var(--color-cloud);
+}
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-cloud);
+}
+
+/* Portfolio */
+
+.portfolio-button {
+font-family: 'Roboto', sans-serif;
+font-style: normal;    
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--logo-color);
+background: var(--color-cloud);
+border: 1px solid var(--color-cornflower);
+border-radius: 4px;
+cursor: pointer;
+}
+
+.portfolio-button:active {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--color-white);
+background: var(--button-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+background-color: var(--button-color);
+color: var(--color-white);
+}
+.title-img {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: var(--main-color);
+}
+.hero-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--second-color);
+}
