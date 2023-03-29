@@ -259,9 +259,18 @@ display: flex;
 }
 
 
-.item-img {
+.item-text {
 margin-right: 24px;
 width: calc((100% - 72px) / 4);
+}
+
+.section-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--hero-footer-color);
+margin-bottom: 8px;
 }
 
 .title-text {
@@ -407,6 +416,7 @@ margin-right: 0;
 
 .hero-section {
 padding-top: 96px;
+padding-bottom: 120px;
 }
 
 .portfolio-button {
@@ -448,7 +458,6 @@ gap: 48px 24px;
 }
 
 .portfolio-card-list {
-margin-bottom: 48px;
 flex-basis: calc((100% - 2 * 24px) /3);
 }
 
